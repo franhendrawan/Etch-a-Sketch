@@ -1,0 +1,38 @@
+/* Styles for the Etch-a-Sketch grid */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vmin;
+    height: 100vmin;
+    border: 1px solid #000000;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border: 1px solid #313030;
+    box-sizing: border-box;
+    width: 90vmin;
+    height: 90vmin;
+    flexshrink: 0;
+}
